@@ -1,0 +1,39 @@
+.navbar-brand{
+    margin-left: 5%;
+    color: #545351;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+.navbar-brand:hover{
+    color: #2196F3;
+}
+.redes{
+    margin-right: 5%;
+}
+
+.redes i{
+    margin-inline: 6px;
+    color: #545351;
+}
+
+.redes i:hover {
+    color: #2196F3;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-brand{
+        width: 100%;
+        text-align: center;
+        color: #545351;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    }
+
+    .redes{
+        display: none;
+    }
+
+}
